@@ -1,0 +1,10 @@
+#avatar-img{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.nav-items{
+    justify-content: end;
+}

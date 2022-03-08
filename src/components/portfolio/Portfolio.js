@@ -1,4 +1,4 @@
-import classes from './Portfolio.module.css'
+import './Portfolio.css'
 import AlienGame from '../../assets/projects/alien-game.png'
 import CodingQuiz from '../../assets/projects/coding-quiz.png'
 import LetsGetOut from '../../assets/projects/lets-get-outta-here.png'

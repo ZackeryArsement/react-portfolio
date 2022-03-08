@@ -10,51 +10,8 @@
     --lightRed: rgb(255, 0, 0);
 }
 
-#avatar-img{
-    border-radius: 50%;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-}
-
-.jumbotron {
-    color: white;
-    background-image: url("./assets/profile/portfolioJumbotron.JPG");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    position: relative;
-    justify-content: center;
-  }
-
-body{
-    background-color: black;
-}
-
 .container {
     position: relative;
-}
-
-/* Bottom right text */
-.text-block {
-    position: absolute;
-    bottom: 30px;
-    right: 20px;
-    background-color: black;
-    opacity: 0.5;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.text-block h4{
-    margin: auto;
-    font-size: 2rem;
-}
-
-.card-footer{
-    display: none;
 }
 
 /* Inner-Hexagon Icon */
@@ -191,48 +148,6 @@ p{
     border-color: black;
     padding: 30px;
     padding-bottom: 80px;
-}
-
-/* Footer */
-footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    /* background: linear-gradient(to top, var(--darkGrey), var(--lightGrey)); */
-}
-
-footer a{
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-.contact-box{
-    max-width: 20%;
-    margin: 1.5%;
-    flex: 0 0 300px;
-    padding: 1rem;
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 2px;
-    background-color: var(--darkGrey);
-    color: white;
-}
-
-.contact-box:hover {
-    border-color: var(--darkRed);
-    box-shadow: 0 0 10px 10px var(--darkRed);
-
-}
-
-#about-me-body{
-    margin-top: 60vh;
-}
-
-.contact-box li{
-    text-align: center;
-    font-size: 1.75rem;
 }
 
 /* Reactive Screen */

@@ -1,0 +1,36 @@
+.contact-box{
+    max-width: 20%;
+    margin: 1.5%;
+    flex: 0 0 300px;
+    padding: 1rem;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: var(--darkGrey);
+    color: white;
+}
+
+.contact-box:hover {
+    border-color: var(--darkRed);
+    box-shadow: 0 0 10px 10px var(--darkRed);
+
+}
+
+.contact-box li{
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to top, var(--darkGrey), var(--lightGrey));
+}
+
+footer a{
+    color: rgb(158, 30, 30);
+    text-align: center;
+    text-decoration: none;
+}

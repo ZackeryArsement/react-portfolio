@@ -1,55 +1,42 @@
 import React from 'react';
 import avatar from '../../assets/profile/LinkedIn.jpg'
-import classes from './Navbar.module.css'
+import './Navbar.css'
+import { LinkContainer } from 'react-router-bootstrap'
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
 
-function Navbar({ currentPage, handlePageChange }) {
+const Navb = () => {
     return(
-    <nav className="navbar navbar-expand-xl navbar-light bg-light sticky-top">
-        <a className="navbar-brand" href="#">
-            <img id='avatar-img' src={avatar} width="50" height="50" alt=""/>
-            Zackery Arsement
-        </a>
+        <Navbar bg="light" expand="lg" sticky="top">
+            <Container>
+                <Navbar.Brand href="#home">
+                    <img id='avatar-img' src={avatar} width="50" height="50" alt=""/>
+                    Zackery Arsement
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav variant="tabs" className="me-auto nav-items justify-content-end">
+                        <LinkContainer to={`/`}>
+                            <Nav.Link>About</Nav.Link>
+                        </LinkContainer>
 
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-        </button>
+                        <LinkContainer to={`/portfolio`}>
+                            <Nav.Link>Portfolio</Nav.Link>
+                        </LinkContainer>
 
-        <div className="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
+                        <LinkContainer to={`/contact`}>
+                            <Nav.Link>Contact</Nav.Link>
+                        </LinkContainer>
 
-                <div id='about-hex' className='hex-small about-nav'
-                    onClick={() => handlePageChange('AboutMe')}></div>
-                    <a 
-                    className="nav-item nav-link active about-nav" 
-                    href="#about-me"
-                    >About
-                    <span className="sr-only">(current)</span>
-                    </a>
-
-                <div id='portfolio-hex' className='hex-small project-nav' 
-                    onClick={() => handlePageChange('Portfolio')}></div>
-                    <a 
-                    className="nav-item nav-link portfolio-nav" 
-                    href="#portfolio"
-                    >Portfolio</a>
-
-                <div id='contact-hex' className='hex-small future-nav'
-                    onClick={() => handlePageChange('Contact')}></div>
-                    <a 
-                    className="nav-item nav-link contact-nav" 
-                    href="#contact"
-                    >Contact</a>
-
-                <div id='resume-hex' className='hex-small contact-nav' 
-                    onClick={() => handlePageChange('Resume')}></div>
-                    <a 
-                    className="nav-item nav-link resume-nav" 
-                    href="#resume"
-                    >Resume</a>
-            </div>
-        </div>
-    </nav>
+                        <LinkContainer to={`/resume`}>
+                            <Nav.Link>Resume</Nav.Link>
+                        </LinkContainer>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }
 
-export default Navbar;
+export default Navb;
