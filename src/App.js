@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Navb from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
@@ -9,15 +8,10 @@ import Resume from './components/resume/Resume';
 import './App.css'
 
 function App() {
-    const [currentSection, setCurrentSection] = useState('Home');
-  
-    const handleSectionChange = (section) => {
-      setCurrentSection(section)
-    }
 
     return (
       <Router>
-        <Navb handleSectionChange={handleSectionChange}/>
+        <Navb/>
         <main>
           <Routes>
             {/* About Me Route */}
@@ -43,9 +37,7 @@ function App() {
           </Routes>
         </main>
 
-        <footer>
-          <Footer />
-        </footer>
+        <Footer />
       </Router>
     );
   }

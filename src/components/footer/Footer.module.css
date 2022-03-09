@@ -1,0 +1,30 @@
+.a:hover {
+    border-color: var(--darkRed);
+    box-shadow: 0 0 10px 10px var(--darkRed);
+
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 6rem;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to top, var(--lightGrey), var(--darkGrey));
+}
+
+.a{
+    margin: auto 4%;
+}
+
+.img{
+    width: 100%;
+}
+
+.github{
+    border-radius: 50%;
+}
+
+.linkedin{
+    border-radius: 8px;
+}

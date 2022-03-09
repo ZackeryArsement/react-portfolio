@@ -9,17 +9,12 @@ const Portfolio = () => {
     return(
         <div className="project-section">
             <div className='w-75 m-auto'>
-                <br id="nav-project"/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 <br/>
                 <h1>Projects Completed</h1>
-                <a id="project-one" href="https://take-me-to-your-leader-zja.herokuapp.com/" target="_blank" class='container'>
+                <a id="project-one" href="https://take-me-to-your-leader-zja.herokuapp.com/" target="_blank" className='container'>
                     <img id="horiseon-picture" src={AlienGame} alt="Take Me to Your Leader Img"/>
                     <div className="text-block">
-                        <h4 class="block-text">Take Me to Your Leader!</h4>
+                        <h4 className="block-text">Take Me to Your Leader!</h4>
                     </div>
                 </a>
         
