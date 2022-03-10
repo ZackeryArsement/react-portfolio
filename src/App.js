@@ -34,6 +34,11 @@ function App() {
             path="/resume"
             element={<Resume />}
             />
+            {/* Home Page is AboutMe */}
+            <Route 
+            path="/react-portfolio/"
+            element={<AboutMe />}
+            />
           </Routes>
         </main>
 
