@@ -5,7 +5,7 @@ import classes from './QuickLook.module.css'
 
 const QuickLook = () => {
     return (
-        <Container className='bg-secondary rounded'>
+        <Container className='bg-ind rounded'>
             {/* University */}
             <Row className='p-4 pb-2'>
                 <Col>

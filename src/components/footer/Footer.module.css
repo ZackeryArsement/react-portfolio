@@ -10,7 +10,7 @@ footer{
     height: 6rem;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(to top, var(--lightGrey), var(--darkGrey));
+    background: linear-gradient(to top, var(--spaceCadet), var(--independence));
 }
 
 .a{

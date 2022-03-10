@@ -3,11 +3,29 @@
 }
 
 :root{
-    --darkGrey: rgb(43, 41, 41);
-    --lightGrey: rgb(75, 75, 75);
-    --faintGrey: rgb(199, 199, 199);
-    --darkRed: rgb(160, 5, 5);
-    --lightRed: rgb(255, 0, 0);
+    /* Color Palette */
+    --independence: #514e64;
+    --darkPurple: #18162c;
+    --auburn: #a12829;
+    --spaceCadet: #2a3653;
+    --darkSienna: #541222;
+}
+
+/* Background Colors */
+.bg-ind{
+    background-color: var(--independence);
+}
+.bg-dark-purple{
+    background-color: var(--darkPurple);
+}
+.bg-auburn{
+    background-color: var(--auburn);
+}
+.bg-space{
+    background-color: var(--spaceCadet);
+}
+.bg-sienna{
+    background-color: var(--darkSienna);
 }
 
 .container {
@@ -18,7 +36,7 @@ h1{
     color: black;
     text-align: center;
     padding: 1rem;
-    background: linear-gradient(to top, var(--lightRed), var(--darkRed));
+    background: linear-gradient(to top, var(--auburn), var(--darkSienna));
     border-radius: 5px;
     width: fit-content;
     margin: 5% auto;
@@ -55,8 +73,8 @@ p{
 }
 
 #horiseon-picture:hover{
-    border-color: var(--darkRed);
-    box-shadow: 0 0 10px 10px var(--darkRed);
+    border-color: var(--darkSienna);
+    box-shadow: 0 0 10px 10px var(--darkSienna);
 }
 
 /* Project List */
@@ -76,8 +94,8 @@ p{
 }
 
 .project img:hover{
-    border-color: var(--darkRed);
-    box-shadow: 0 0 10px 10px var(--darkRed);
+    border-color: var(--darkSienna);
+    box-shadow: 0 0 10px 10px var(--darkSienna);
 }
 
 .project img{

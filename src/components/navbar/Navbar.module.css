@@ -13,7 +13,7 @@
 .hexSmall:before {
     content: " ";
     width: 0; height: 0;
-    border-bottom: 7.5px solid var(--darkGrey);
+    border-bottom: 7.5px solid var(--darkPurple);
     border-left: 13px solid transparent;
     border-right: 13px solid transparent;
     position: absolute;
@@ -24,7 +24,7 @@
     margin-top: 7.5px;
     width: 26px;
     height: 15px;
-    background-color: var(--darkGrey);
+    background-color: var(--darkPurple);
     position: relative;
     transition: transform .9s ease-in-out;
 }
@@ -34,7 +34,7 @@
     width: 0;
     position: absolute;
     bottom: -7.5px;
-    border-top: 7.5px solid var(--darkGrey);
+    border-top: 7.5px solid var(--darkPurple);
     border-left: 13px solid transparent;
     border-right: 13px solid transparent;
 }

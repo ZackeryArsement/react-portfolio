@@ -1,4 +1,4 @@
 main{
-    background-color: black;
+    background-color: var(--darkPurple);
     min-height: 95vh;
 }
