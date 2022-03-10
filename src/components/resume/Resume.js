@@ -7,9 +7,11 @@ import Github from '../../assets/icons/github.png'
 const Resume = () => {
     return (
         <div className='pt-5'>
-            <h1>
-                Quick Look
-            </h1>
+            <div className='pb-4'>
+                <h1>
+                    Quick Look
+                </h1>
+            </div>
 
             {/* Quick Look */}
             <QuickLook />
