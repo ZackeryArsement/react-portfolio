@@ -36,7 +36,7 @@ function App() {
             />
             {/* Home Page is AboutMe */}
             <Route 
-            path="/react-portfolio/"
+            path="/react-portfolio"
             element={<AboutMe />}
             />
           </Routes>
