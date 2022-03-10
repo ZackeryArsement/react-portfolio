@@ -25,6 +25,16 @@ footer{
     border-radius: 50%;
 }
 
+.github:hover{
+    border-color: var(--darkSienna);
+    box-shadow: 0 0 10px 10px var(--darkSienna);
+}
+
 .linkedin{
     border-radius: 8px;
+}
+
+.linkedin:hover{
+    border-color: var(--darkSienna);
+    box-shadow: 0 0 10px 10px var(--darkSienna);
 }

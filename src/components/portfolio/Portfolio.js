@@ -1,52 +1,62 @@
-import './Portfolio.css'
+// import './Portfolio.css'
 import AlienGame from '../../assets/projects/alien-game.png'
-import CodingQuiz from '../../assets/projects/coding-quiz.png'
 import LetsGetOut from '../../assets/projects/lets-get-outta-here.png'
-import PasswordGenerator from '../../assets/projects/password-generator.png'
 import WeatherForecast from '../../assets/projects/weather-forecast.png'
+import CodingQuiz from '../../assets/projects/coding-quiz.png'
+import PasswordGenerator from '../../assets/projects/password-generator.png'
+import Project from './Project'
 
+const projects = [
+    {
+        title: 'Take Me to Your Leader',
+        deployed: "https://take-me-to-your-leader-zja.herokuapp.com/",
+        github:'https://github.com/ZackeryArsement/solo-take-me-to-leader',
+        img: AlienGame,
+        description: 'Control an alien to create random sentences!',
+        tech: 'ExpressJS | Javascript | HandlebarsJS | MySQL |  Phaser3 | NodeJS | HTML & CSS'
+    },
+    {
+        title: 'Let\'s Get Outta Here',
+        deployed: "https://zackeryarsement.github.io/projectOne/",
+        github:'https://github.com/ZackeryArsement/projectOne',
+        img: LetsGetOut,
+        description: 'Input a city and find information on nearby cities!',
+        tech: 'Javascript | JQuery | RestfulAPI\'s | Materialize | HTML & CSS'
+    },
+    {
+        title: 'Weather Dashboard',
+        deployed: "https://zackeryarsement.github.io/weatherDashboard_HW6/",
+        github:'https://github.com/ZackeryArsement/weatherDashboard_HW6',
+        img: WeatherForecast,
+        description: 'Search a city and find it\'s current and forecasted weather!',
+        tech: 'Javascript | JQuery | Bootstrap | HTML & CSS'
+    },
+    {
+        title: 'Coding Quiz',
+        deployed: "https://zackeryarsement.github.io/CodeQuiz_HW4/",
+        github:'https://github.com/ZackeryArsement/CodeQuiz_HW4',
+        img: CodingQuiz,
+        description: 'Take a timed quiz to test your javascript knowledge!',
+        tech: 'Javascript | HTML & CSS'
+    },
+    {
+        title: 'Password Generator',
+        deployed: "https://zackeryarsement.github.io/passwordGenerator_HW3/",
+        github:'https://github.com/ZackeryArsement/passwordGenerator_HW3',
+        img: PasswordGenerator,
+        description: 'Create a password using ',
+        tech: 'Javascript | HTML & CSS'
+    },
+]
 const Portfolio = () => {
     return(
-        <div className="project-section">
-            <div className='w-75 m-auto'>
-                <br/>
-                <a id="project-one" href="https://take-me-to-your-leader-zja.herokuapp.com/" target="_blank" className='container'>
-                    <img id="horiseon-picture" src={AlienGame} alt="Take Me to Your Leader Img"/>
-                    <div className="text-block">
-                        <h4 className="block-text">Take Me to Your Leader!</h4>
-                    </div>
-                </a>
-        
-                <div className="project-list">
-                    <a className="project container" href="https://zackeryarsement.github.io/projectOne/" target="_blank">
-                        <img src={LetsGetOut} alt="Let's Get Outta Here Img"/>
-                        <div className="text-block">
-                            <h4 className="block-text">Let's Get Outta Here!</h4>
-                        </div>
-                    </a>
-
-                    <a className="project container" href="https://zackeryarsement.github.io/passwordGenerator_HW3/" target="_blank">
-                        <img src={PasswordGenerator} alt="Password Generator Img"/>
-                        <div className="text-block">
-                            <h4 className="block-text">Password Generator</h4>
-                        </div>
-                    </a>
-
-                    <a className="project container" href="https://zackeryarsement.github.io/CodeQuiz_HW4/" target="_blank">
-                        <img src={CodingQuiz} alt="Coding Quiz Img"/>
-                        <div className="text-block">
-                            <h4 className="block-text">Coding Quiz</h4>
-                        </div>
-                    </a>
-                    
-                    <a className="project container" href="https://zackeryarsement.github.io/weatherDashboard_HW6/" target="_blank">
-                        <img src={WeatherForecast} alt="Weather Dashboard Img"/>
-                        <div className="text-block">
-                            <h4 className="block-text">Weather Dashboard</h4>
-                        </div>
-                    </a>
-                </div>
+        <div className='pt-5 pb-5'>
+            <div className='pb-4'>
+                <h1>
+                    Completed Projects
+                </h1>
             </div>
+            <Project projects={projects}/>
         </div>
     )
 }
