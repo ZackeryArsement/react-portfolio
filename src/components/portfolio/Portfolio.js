@@ -10,7 +10,6 @@ const Portfolio = () => {
         <div className="project-section">
             <div className='w-75 m-auto'>
                 <br/>
-                <h1>Projects Completed</h1>
                 <a id="project-one" href="https://take-me-to-your-leader-zja.herokuapp.com/" target="_blank" className='container'>
                     <img id="horiseon-picture" src={AlienGame} alt="Take Me to Your Leader Img"/>
                     <div className="text-block">

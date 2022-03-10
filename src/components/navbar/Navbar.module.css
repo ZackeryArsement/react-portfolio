@@ -1,0 +1,40 @@
+.avatarImg{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.nav-item{
+    justify-content: end;
+}
+
+/* Inner-Hexagon Icon */
+.hexSmall:before {
+    content: " ";
+    width: 0; height: 0;
+    border-bottom: 7.5px solid var(--darkGrey);
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    position: absolute;
+    top: -7.5px;
+}
+
+.hexSmall {
+    margin-top: 7.5px;
+    width: 26px;
+    height: 15px;
+    background-color: var(--darkGrey);
+    position: relative;
+    transition: transform .9s ease-in-out;
+}
+
+.hexSmall:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: -7.5px;
+    border-top: 7.5px solid var(--darkGrey);
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+}

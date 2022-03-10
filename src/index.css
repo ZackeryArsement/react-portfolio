@@ -14,36 +14,6 @@
     position: relative;
 }
 
-/* Inner-Hexagon Icon */
-.hex-small:before {
-    content: " ";
-    width: 0; height: 0;
-    border-bottom: 7.5px solid var(--darkGrey);
-    border-left: 13px solid transparent;
-    border-right: 13px solid transparent;
-    position: absolute;
-    top: -7.5px;
-}
-
-.hex-small {
-    margin-top: 7.5px;
-    width: 26px;
-    height: 15px;
-    background-color: var(--darkGrey);
-    position: relative;
-    transition: transform .9s ease-in-out;
-}
-
-.hex-small:after {
-    content: "";
-    width: 0;
-    position: absolute;
-    bottom: -7.5px;
-    border-top: 7.5px solid var(--darkGrey);
-    border-left: 13px solid transparent;
-    border-right: 13px solid transparent;
-}
-
 h1{
     color: black;
     text-align: center;
@@ -51,36 +21,20 @@ h1{
     background: linear-gradient(to top, var(--lightRed), var(--darkRed));
     border-radius: 5px;
     width: fit-content;
-    margin: 2.5% auto;
+    margin: 5% auto;
     justify-content: center;
 }
 
 p{
-    line-height: 150%;
+    /* line-height: 150%; */
     color: white;
-    margin: 0 4rem;
+    /* margin: 0 4rem; */
 }
-
-#profile-picture{
-    display: inline-block;
-    border-radius: 15px;
-    margin: 0 20%;
-    width: 60%
-}
-
-/* About me paragraph */
-/* .self-intoduction{
-    background: linear-gradient(var(--darkGrey), var(--lightGrey));
-} */
 
 .self-intoduction p{
     padding: 30px;
     padding-bottom: 6rem;
 }
-
-/* .project-section{
-    background: linear-gradient(to top, var(--darkGrey), var(--lightGrey));
-} */
 
 /* First Project */
 #project-one{
