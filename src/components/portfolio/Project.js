@@ -15,7 +15,7 @@ const Project = ({
                         <Col>
                             <Row className={` bg-light rounded text-center`}>
                                 <Col xs={5}>
-                                    <a className={`${classes.project} container`} href={project.deployed} target="_blank">
+                                    <a className={`${classes.project} container`} href={project.deployed} target="_blank" rel="noreferrer">
                                         <img src={project.img} alt={project.title} className={classes.projectImg}/>
                                         <div class={classes.textBlock}>
                                             <h4>{project.title}</h4>
@@ -32,8 +32,8 @@ const Project = ({
                                         <h4>{project.tech}</h4>                                    
                                     </Row>
                                     <Row className='justify-content-center mb-3'>
-                                        <a className={`${classes.a} ${classes.github}`} href={project.github} target="_blank">
-                                            <img className={classes.img} src={Github} />
+                                        <a className={`${classes.a} ${classes.github}`} href={project.github} target="_blank" rel="noreferrer">
+                                            <img className={classes.img} src={Github} alt="Github Link"/>
                                         </a>                                
                                     </Row>
                                 </Col>

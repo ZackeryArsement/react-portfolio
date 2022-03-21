@@ -5,12 +5,12 @@ import LinkedIn from '../../assets/icons/linkedIn.png'
 const Footer = () => {
     return(
         <footer>
-            <a className={`${classes.a} ${classes.linkedin}`} href="https://www.linkedin.com/in/zackery-arsement/" target="_blank">
-                <img className={classes.img} src={LinkedIn} />
+            <a className={`${classes.a} ${classes.linkedin}`} href="https://www.linkedin.com/in/zackery-arsement/" target="_blank"  rel="noreferrer">
+                <img className={classes.img} src={LinkedIn} alt="LinkedIn Icon"/>
             </a>
 
-            <a className={`${classes.a} ${classes.github}`} href="https://github.com/ZackeryArsement" target="_blank">
-                <img className={classes.img} src={Github} />
+            <a className={`${classes.a} ${classes.github}`} href="https://github.com/ZackeryArsement" target="_blank"  rel="noreferrer">
+                <img className={classes.img} src={Github} alt="Github Icon"/>
             </a>
         </footer>
     )

@@ -18,9 +18,9 @@ const Resume = () => {
 
             {/* Resume Download */}
             <div className={`${classes.resumeContainer} bg-ind d-flex justify-content-center mt-5 m-auto rounded`}>
-                <a href={ZackArsementResume} target="_blank" className={`${classes.resume} text-decoration-none text-black`}>
+                <a href={ZackArsementResume} target="_blank" rel="noreferrer" className={`${classes.resume} text-decoration-none text-black`}>
                     Download Resume:
-                    <img src={Github}/>
+                    <img src={Github} alt="Github Link"/>
                 </a>
             </div>
 
