@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.57695999.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.fc94e9f9.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.fc94e9f9.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.5a4b82ba.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.3ae35804.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.3ae35804.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.e5831ed5.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e5831ed5.js.map",
     "static/css/2.0a9ec390.chunk.css": "/react-portfolio/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.86378069.chunk.js": "/react-portfolio/static/js/2.86378069.chunk.js",
-    "static/js/2.86378069.chunk.js.map": "/react-portfolio/static/js/2.86378069.chunk.js.map",
+    "static/js/2.96a66987.chunk.js": "/react-portfolio/static/js/2.96a66987.chunk.js",
+    "static/js/2.96a66987.chunk.js.map": "/react-portfolio/static/js/2.96a66987.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/react-portfolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.57695999.chunk.css.map": "/react-portfolio/static/css/main.57695999.chunk.css.map",
-    "static/js/2.86378069.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.86378069.chunk.js.LICENSE.txt",
+    "static/css/main.5a4b82ba.chunk.css.map": "/react-portfolio/static/css/main.5a4b82ba.chunk.css.map",
+    "static/js/2.96a66987.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.96a66987.chunk.js.LICENSE.txt",
     "static/media/LinkedIn.ed32dbe0.jpg": "/react-portfolio/static/media/LinkedIn.ed32dbe0.jpg",
-    "static/media/Resume.330d3b3e.pdf": "/react-portfolio/static/media/Resume.330d3b3e.pdf",
+    "static/media/Resume.e6ad6500.pdf": "/react-portfolio/static/media/Resume.e6ad6500.pdf",
     "static/media/alien-game.c72e6df7.png": "/react-portfolio/static/media/alien-game.c72e6df7.png",
     "static/media/coding-quiz.1577e351.png": "/react-portfolio/static/media/coding-quiz.1577e351.png",
     "static/media/lets-get-outta-here.cac4bb01.png": "/react-portfolio/static/media/lets-get-outta-here.cac4bb01.png",
     "static/media/password-generator.aa25cbf8.png": "/react-portfolio/static/media/password-generator.aa25cbf8.png",
     "static/media/About-me.css": "/react-portfolio/static/media/portfolioJumbotron.9784db2d.JPG",
+    "static/media/riseNthrive.55b10ab2.png": "/react-portfolio/static/media/riseNthrive.55b10ab2.png",
     "static/media/weather-forecast.be780e78.png": "/react-portfolio/static/media/weather-forecast.be780e78.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e5831ed5.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.86378069.chunk.js",
-    "static/css/main.57695999.chunk.css",
-    "static/js/main.fc94e9f9.chunk.js"
+    "static/js/2.96a66987.chunk.js",
+    "static/css/main.5a4b82ba.chunk.css",
+    "static/js/main.3ae35804.chunk.js"
   ]
 }
