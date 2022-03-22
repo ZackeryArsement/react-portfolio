@@ -1,10 +1,10 @@
-// import classes from './Contact.module.css'
+import classes from './ContactForm.module.css'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
 const ContactForm = () => {
     return (
-        <Form className="text-black" action="https://formspree.io/f/xeqnkwod" method="POST">
+        <Form className={`${classes.form} text-black`} action="https://formspree.io/f/xeqnkwod" method="POST">
             <Form.Group className="mb-3 pt-3" controlId="username">
                 <Form.Label>Name</Form.Label>
                 <Form.Control required as="textarea" rows={1} placeholder="Enter Name" name="name"/>

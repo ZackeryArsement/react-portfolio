@@ -4,3 +4,15 @@
     padding: 1vw 2vh 3vw 2vw;
     border-radius: 15px;
 }
+
+@media screen and (min-width: 984px) {
+    .form{
+        width: 984px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .form{
+        width: 95%;
+    }
+}
