@@ -1,9 +1,37 @@
 .title{
+    width: 25%;
     font-weight: 500;
     font-size: 2.5rem;
+    padding-left: 0;
+    border-right: black 2px solid;
 }
 
 .content{
+    width: 75%;
     font-size: 1.5rem;
     margin: auto;
+}
+
+@media screen and (max-width: 994px) {
+    .title{
+        width: 34%;
+    }
+    .content{
+        width: 66%;
+        padding: 0.25rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        border-right: none;
+        border-bottom: black 2px solid;
+    }
+    .content{
+        width: 75%;
+        margin: auto;
+    }
 }

@@ -9,9 +9,9 @@ const QuickLook = () => {
             {/* University */}
             <Row className='p-4 pb-2'>
                 <Col>
-                    <Row className='bg-light rounded p-3 text-center'>
-                        <Col xs={3} className={`${classes.title} text-end border-end border-dark`}>University:</Col>
-                        <Col xs={9} className={classes.content}>The University of Texas at Austin (Dec. 2020) - - - "Hook 'em!"</Col>
+                    <Row className='bg-light rounded p-3 text-center d-flex'>
+                        <div className={`${classes.title}`}>University</div>
+                        <div className={classes.content}>The University of Texas at Austin (Dec. 2020) - - - "Hook 'em!"</div>
                     </Row>
                 </Col>
             </Row>
@@ -19,9 +19,9 @@ const QuickLook = () => {
             {/* Degree */}
             <Row className='p-4 pb-2'>
                 <Col>
-                    <Row className='bg-light rounded p-3 text-center'>
-                        <Col xs={3} className={`${classes.title} text-end border-end border-dark`}>Degree:</Col>
-                        <Col className={classes.content}>B.S. in Mechanical Engineering</Col>
+                    <Row className='bg-light rounded p-3 text-center d-flex'>
+                        <div className={`${classes.title}`}>Degree</div>
+                        <div className={classes.content}>B.S. in Mechanical Engineering</div>
                     </Row>
                 </Col>
             </Row>
@@ -30,8 +30,8 @@ const QuickLook = () => {
             <Row className='p-4 pb-2'>
                 <Col>
                     <Row className='bg-light rounded p-3 text-center'>
-                        <Col xs={3} className={`${classes.title} text-end border-end border-dark`}>Certificates:</Col>
-                        <Col className={classes.content}>Full Stack Web Developer Certificate</Col>
+                        <div className={`${classes.title}`}>Certificates</div>
+                        <div className={classes.content}>Full Stack Web Developer Certificate</div>
                     </Row>
                 </Col>
             </Row>
@@ -40,8 +40,8 @@ const QuickLook = () => {
             <Row className='p-4 pb-2'>
                 <Col>
                     <Row className='bg-light rounded p-3 text-center'>
-                        <Col xs={3} className={`${classes.title} text-end border-end border-dark`}>Technical Skills:</Col>
-                        <Col className={classes.content}>Javascript | ReactJS | MongoDB | MySQL | ExpressJS | PhaserJS | NodeJS | HTML & CSS</Col>
+                        <div className={`${classes.title}`}>Technical Skills</div>
+                        <div className={classes.content}>Javascript | ReactJS | MongoDB | MySQL | ExpressJS | PhaserJS | NodeJS | HTML & CSS</div>
                     </Row>
                 </Col>
             </Row>
@@ -50,10 +50,10 @@ const QuickLook = () => {
             <Row className='p-4'>
                 <Col>
                     <Row className='bg-light rounded p-3 text-center'>
-                        <Col xs={3} className={`${classes.title} text-end border-end border-dark`}>Career Outlook:</Col>
-                        <Col className={classes.content}>
+                        <div className={`${classes.title}`}>Career Outlook</div>
+                        <div className={classes.content}>
                             I have a passion for using software to create complex algorithms and problem solve. I would love a career using Javascript to create intricate and interactive web applications that are both enjoyable to the user and help tackle real world problems.
-                        </Col>
+                        </div>
                     </Row>
                 </Col>
             </Row>
