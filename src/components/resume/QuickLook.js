@@ -52,7 +52,7 @@ const QuickLook = () => {
                     <Row className='bg-light rounded p-3 text-center'>
                         <Col xs={3} className={`${classes.title} text-end border-end border-dark`}>Career Outlook:</Col>
                         <Col className={classes.content}>
-                            I have a passion for using software to create complex algorithms and problem solve. I would love a career specializing in the back-end with database implementation or using javascript to create the brains of an application.
+                            I have a passion for using software to create complex algorithms and problem solve. I would love a career using Javascript to create intricate and interactive web applications that are both enjoyable to the user and help tackle real world problems.
                         </Col>
                     </Row>
                 </Col>

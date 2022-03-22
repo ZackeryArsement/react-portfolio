@@ -6,7 +6,7 @@ import Github from '../../assets/icons/github.png'
 
 const Resume = () => {
     return (
-        <div className='pt-5'>
+        <div className='pt-5 pb-4'>
             <div className='pb-4'>
                 <h1>
                     Quick Look
