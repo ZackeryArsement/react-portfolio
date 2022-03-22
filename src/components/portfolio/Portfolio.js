@@ -4,9 +4,19 @@ import LetsGetOut from '../../assets/projects/lets-get-outta-here.png'
 import WeatherForecast from '../../assets/projects/weather-forecast.png'
 import CodingQuiz from '../../assets/projects/coding-quiz.png'
 import PasswordGenerator from '../../assets/projects/password-generator.png'
+import RiseNThrive from '../../assets/projects/riseNthrive.png'
+
 import Project from './Project'
 
 const projects = [
+    {
+        title: 'Rise N\' Thrive',
+        deployed: "https://risenthrive.herokuapp.com/",
+        github:'https://github.com/romeodixonll/Rise-N-Thrive',
+        img: RiseNThrive,
+        description: 'All in one morning application to start your day!',
+        tech: 'React | ExpressJS | Javascript | MongoDB |  Phaser3 | NodeJS | CSS'
+    },
     {
         title: 'Take Me to Your Leader',
         deployed: "https://take-me-to-your-leader-zja.herokuapp.com/",

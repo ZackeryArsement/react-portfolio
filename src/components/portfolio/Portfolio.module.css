@@ -1,7 +1,9 @@
 /* Bottom right text */
 .textBlock {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%);
     background-color: black;
     opacity: 0.5;
     color: white;
@@ -9,6 +11,7 @@
     padding-right: 20px;
     text-align: center;
     justify-content: center;
+    width: 75%;
 }
 
 .textBlock h4{
@@ -69,10 +72,61 @@
 }
 
 .a{
-    margin: auto 4%;
-    width: 10%;
+    margin: auto 45%;
+    width: 15%;
+    padding: 0;
 }
 
 .img{
     width: 100%;
+}
+
+/* Row and media queries */
+.parentRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column1{
+    width: 45%;
+    margin: auto;
+}
+
+.column2{
+    width: 55%;
+}
+
+@media screen and (max-width: 1400px){
+    .description{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .description{
+        font-size: 1rem;
+    }
+    .project{
+        padding: 0.25rem;
+    }
+    .column1{
+        padding: 0;
+    } 
+    .column2{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 994px){
+    .column1{
+        width: 538px;
+        margin: auto;
+    } 
+    .column2{
+        width: 75%;
+        margin: auto;
+    }
+    .textBlock h4{
+        font-size: 1.25rem;
+    }
 }
