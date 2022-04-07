@@ -12,6 +12,17 @@ const Contact = () => {
             <div className={`${classes.form} bg-ind`}>
                 <ContactForm />
             </div>
+            <div className={classes.contact}>
+                <div className={classes.info}>
+                    Phone: (409) 673-0734
+                </div>
+                <div className={classes.info}>
+                    Email: zarsement@hotmail.com
+                </div>
+                <div className={classes.info}>
+                    Location: Beaumont, TX (Remote)
+                </div>
+            </div>
         </div>     
     )
 }

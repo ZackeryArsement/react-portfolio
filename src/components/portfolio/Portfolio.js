@@ -14,7 +14,7 @@ const projects = [
         deployed: "https://risenthrive.herokuapp.com/",
         github:'https://github.com/romeodixonll/Rise-N-Thrive',
         img: RiseNThrive,
-        description: 'All in one morning application to start your day!',
+        description: 'All in one morning application to start your day! (Currently being worked on...)',
         tech: 'React | ExpressJS | Javascript | MongoDB |  Phaser3 | NodeJS | CSS'
     },
     {

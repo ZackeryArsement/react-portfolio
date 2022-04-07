@@ -5,6 +5,27 @@
     border-radius: 15px;
 }
 
+.contact{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    background-color: var(--independence);
+    border-radius: 10px;
+    padding: 0.25rem;
+    width: 500px;
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.info{
+    background-color: var(--spaceCadet);
+    margin: 1rem auto;
+    padding: 0.75rem;
+    width: 90%;
+    border-radius: 15px;
+}
+
 @media screen and (min-width: 984px) {
     .form{
         width: 984px;
@@ -14,5 +35,12 @@
 @media screen and (max-width: 984px) {
     .form{
         width: 95%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact{
+        width: 100%;
+        font-size: 1.25rem;
     }
 }

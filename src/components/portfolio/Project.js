@@ -11,7 +11,7 @@ const Project = ({
         <Container className={`${classes.projectComponents} bg-ind rounded`}>
             {projects &&
                 projects.map((project) => (
-                    <Row className={`w-100  p-4 pb-2`}>
+                    <Row className={`w-100  p-4 pb-2`} key={project.title}>
                         <Col>
                             <Row className={` bg-light rounded text-center ${classes.parentRow}`}>
                                 <div className={`${classes.column1}`}>
