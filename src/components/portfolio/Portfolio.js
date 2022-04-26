@@ -5,17 +5,26 @@ import WeatherForecast from '../../assets/projects/weather-forecast.png'
 import CodingQuiz from '../../assets/projects/coding-quiz.png'
 import PasswordGenerator from '../../assets/projects/password-generator.png'
 import RiseNThrive from '../../assets/projects/riseNthrive.png'
+import BasketballSimulator from '../../assets/projects/basketball-simulator.png'
 
 import Project from './Project'
 
 const projects = [
     {
+        title: 'Basketball Simulator',
+        deployed: "https://basketball-simulator-zja.herokuapp.com/",
+        github:'https://github.com/ZackeryArsement/basketball-simulation',
+        img: BasketballSimulator,
+        description: 'Prove your basketball knowledge by building a team and simulating games!',
+        tech: 'React | ExpressJS | Javascript | MongoDB |  GraphQL | NodeJS | CSS'
+    },
+    {
         title: 'Rise N\' Thrive',
-        deployed: "https://risenthrive.herokuapp.com/",
-        github:'https://github.com/romeodixonll/Rise-N-Thrive',
+        deployed: "https://rise-n-thrive-zja.herokuapp.com/",
+        github:'https://github.com/ZackeryArsement/Rise-N-Thrive',
         img: RiseNThrive,
-        description: 'All in one morning application to start your day! (Currently being worked on...)',
-        tech: 'React | ExpressJS | Javascript | MongoDB |  Phaser3 | NodeJS | CSS'
+        description: 'All in one morning application to start your day!',
+        tech: 'React | ExpressJS | Javascript | MongoDB | GraphQL |  Phaser3 | NodeJS | CSS'
     },
     {
         title: 'Take Me to Your Leader',

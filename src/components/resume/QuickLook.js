@@ -41,7 +41,7 @@ const QuickLook = () => {
                 <Col>
                     <Row className='bg-light rounded p-3 text-center'>
                         <div className={`${classes.title}`}>Technical Skills</div>
-                        <div className={classes.content}>Javascript | ReactJS | MongoDB | MySQL | ExpressJS | PhaserJS | NodeJS | HTML & CSS</div>
+                        <div className={classes.content}>Javascript | ReactJS | MongoDB | MySQL | ExpressJS | GraphQL | PhaserJS | NodeJS | HTML & CSS</div>
                     </Row>
                 </Col>
             </Row>
